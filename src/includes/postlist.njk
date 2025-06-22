@@ -1,0 +1,53 @@
+{%- for post in postlist | reverse %}
+  <article class="relative isolate flex flex-col gap-8 lg:flex-row">
+    <div
+      class="sm:aspect-2/1 relative aspect-video lg:aspect-square lg:w-64 lg:shrink-0"
+    >
+      <img
+        class="absolute inset-0 size-full rounded-2xl bg-gray-50 object-cover"
+        src="{{ post.data.banner.image }}"
+        alt=""
+      />
+      <div
+        class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"
+      ></div>
+    </div>
+    <div>
+      <div class="flex items-center gap-x-4 text-xs">
+        <time class="text-gray-500" datetime="{{ post.date | htmlDateString }}"
+          >{{ post.date | readableDate("LLLL yyyy") }}</time
+        >
+        {%- for tag in post.data.tags | filterTags %}
+          <a
+            class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+            href="/{{ page.lang }}/{{ i18n[lang].news }}/{{ i18n[lang].tags }}/{{ tag | slugify }}/"
+            >{{ tag }}</a
+          >
+        {%- endfor %}
+      </div>
+      <div class="group relative max-w-xl">
+        <h3
+          class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600"
+        >
+          <a href="{{ post.page.url }}">
+            <span class="absolute inset-0"></span>
+            {{ post.data.title }}
+          </a>
+        </h3>
+        <p class="mt-5 text-sm/6 text-gray-600">{{ post.data.subtitle }}</p>
+      </div>
+      <div class="relative mt-8 flex items-center gap-x-4">
+        {%- include "logo-small.html" %}
+        <div class="text-sm/6">
+          <p class="font-semibold text-gray-900">
+            <a href="mailto:{{ post.data.author.email }}">
+              <span class="absolute inset-0"></span>
+              {{ post.data.author.name }}
+            </a>
+          </p>
+          <p class="text-gray-600">{{ post.data.author.email }}</p>
+        </div>
+      </div>
+    </div>
+  </article>
+{%- endfor %}

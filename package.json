@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC-BY-NC-ND-4.0",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-navigation": "^1.0.4",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "@tailwindcss/cli": "^4.1.11",
+    "@tailwindcss/forms": "^0.5.10",
+    "luxon": "^3.6.1",
+    "tailwindcss": "^4.1.11"
+  },
+  "type": "module"
+}

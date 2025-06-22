@@ -1,0 +1,99 @@
+---
+layout: page.njk
+---
+
+<figure class="mt-16">
+  <img
+    class="aspect-video rounded-xl bg-gray-50 object-cover"
+    src="{{ banner.image }}"
+    alt=""
+  />
+  <figcaption class="mt-4 flex gap-x-2 text-sm/6 text-gray-500">
+    <svg
+      class="mt-0.5 size-5 flex-none text-gray-300"
+      viewBox="0 0 20 20"
+      fill="currentColor"
+      aria-hidden="true"
+      data-slot="icon"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-7-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9 9a.75.75 0 0 0 0 1.5h.253a.25.25 0 0 1 .244.304l-.459 2.066A1.75 1.75 0 0 0 10.747 15H11a.75.75 0 0 0 0-1.5h-.253a.25.25 0 0 1-.244-.304l.459-2.066A1.75 1.75 0 0 0 9.253 9H9Z"
+        clip-rule="evenodd"
+      />
+    </svg>
+    {{ banner.caption }}
+  </figcaption>
+</figure>
+<div class="max-w-2xl text-gray-600">{{ content | safe }}</div>
+<div
+  class="grid grid-cols-1 gap-x-4 text-xs md:flex md:flex-wrap md:items-center"
+>
+  <p class="text-base/7 font-semibold text-indigo-600">
+    {{ date | readableDate("LLLL yyyy") }}
+  </p>
+  {%- for tag in tags | filterTags %}
+    <a
+      class="relative z-10 mt-2 w-min text-nowrap rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100 md:mt-0"
+      href="/{{ page.lang }}/{{ i18n[lang].news }}/{{ i18n[lang].tags }}/{{ tag | slugify }}/"
+      >{{ tag }}</a
+    >
+  {%- endfor %}
+</div>
+
+<nav
+  class="grid grid-cols-1 border-t border-gray-200 px-4 sm:px-0 md:flex md:flex-wrap md:items-center md:justify-between"
+>
+  {%- if collections.posts %}
+    {%- set previousPost = collections.posts | matchPageLang | getPreviousCollectionItem %}
+    {%- set nextPost = collections.posts | matchPageLang | getNextCollectionItem %}
+    {%- if nextPost or previousPost %}
+      {%- if previousPost %}
+        <div class="-mt-px block md:flex md:w-0 md:flex-1">
+          <a
+            class="inline-flex items-center border-t-2 border-transparent pr-1 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+            href="{{ previousPost.url }}"
+          >
+            <svg
+              class="mr-3 size-5 text-gray-400"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+              data-slot="icon"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M18 10a.75.75 0 0 1-.75.75H4.66l2.1 1.95a.75.75 0 1 1-1.02 1.1l-3.5-3.25a.75.75 0 0 1 0-1.1l3.5-3.25a.75.75 0 1 1 1.02 1.1l-2.1 1.95h12.59A.75.75 0 0 1 18 10Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            {{ previousPost.data.title }}
+          </a>
+        </div>
+      {%- endif %}
+      {%- if nextPost %}
+        <div class="-mt-px block justify-end md:flex md:w-0 md:flex-1">
+          <a
+            class="float-right inline-flex items-center border-t-2 border-transparent pl-1 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+            href="{{ nextPost.url }}"
+          >
+            {{ nextPost.data.title }}
+            <svg
+              class="ml-3 size-5 text-gray-400"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+              data-slot="icon"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2 10a.75.75 0 0 1 .75-.75h12.59l-2.1-1.95a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.1-1.95H2.75A.75.75 0 0 1 2 10Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </div>
+      {%- endif %}
+    {%- endif %}
+  {%- endif %}
+</nav>

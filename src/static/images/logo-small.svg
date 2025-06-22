@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+  sodipodi:docname="logo-small.svg"
+  height="32"
+  id="svg1"
+  version="1.1"
+  viewBox="0 0 32 32"
+  width="32"
+>
+  <sodipodi:namedview
+    inkscape:current-layer="g4"
+    inkscape:cx="-8.6185844"
+    inkscape:cy="23.293471"
+    inkscape:deskcolor="#d1d1d1"
+    inkscape:document-units="mm"
+    inkscape:pagecheckerboard="0"
+    inkscape:pageopacity="0.0"
+    inkscape:showpageshadow="2"
+    inkscape:window-height="637"
+    inkscape:window-maximized="0"
+    inkscape:window-width="1160"
+    inkscape:window-x="0"
+    inkscape:window-y="25"
+    inkscape:zoom="6.4395726"
+    bordercolor="#000000"
+    borderopacity="0.25"
+    id="namedview1"
+    pagecolor="#ffffff"
+  />
+  <rect fill="#eff1f5" height="100%" width="100%" />
+  <defs id="defs1" />
+  <g inkscape:groupmode="layer" inkscape:label="Layer 1" id="layer1">
+    <g id="g4" transform="translate(-0.92040944,-1.6279898)">
+      <g id="g5" transform="translate(-0.4625144,-0.0250816)">
+        <text
+          xml:space="preserve"
+          id="text3-9"
+          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'System Font';-inkscape-font-specification:'System Font';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#dc8a78;fill-opacity:1"
+          x="5.2667556"
+          y="19.439556"
+        ><tspan
+            sodipodi:role="line"
+            id="tspan3-7"
+            style="font-style:normal;font-variant:normal;font-weight:496;font-stretch:normal;font-size:16px;font-family:'.New York';-inkscape-font-specification:'.New York weight=496';fill:#209fb5;fill-opacity:1"
+            x="5.2667556"
+            y="19.439556"
+          >
+            JS
+          </tspan></text>
+        <text
+          xml:space="preserve"
+          id="text3"
+          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'System Font';-inkscape-font-specification:'System Font';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000"
+          x="11.499092"
+          y="27.265024"
+        ><tspan
+            sodipodi:role="line"
+            id="tspan3"
+            style="font-style:normal;font-variant:normal;font-weight:496;font-stretch:normal;font-size:16px;font-family:'.New York';-inkscape-font-specification:'.New York weight=496';fill:#7287fd;fill-opacity:1"
+            x="11.499092"
+            y="27.265024"
+          >
+            TV
+          </tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

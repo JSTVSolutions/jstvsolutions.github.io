@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <title>
+      JSTV Solutions | Software solutions for the enterprise and public sector
+    </title>
+    <script type="text/javascript">
+      function supportedLang(lang, supportedLangs) {
+        return (supportedLangs.has(lang) && lang) || null;
+      }
+      function selectLang(lang, supportedLangs = new Set(["en", "es"])) {
+        return supportedLang(lang.slice(0, 2), supportedLangs) || "en";
+      }
+      window.location = selectLang(navigator.language) + "/";
+    </script>
+  </head>
+  <body>
+    <h1>
+      JSTV Solutions | Software solutions for the enterprise and public sector
+    </h1>
+    <ul>
+      <li>
+        🇬🇧
+        <a href="en/">English</a>
+      </li>
+      <li>
+        🇪🇸
+        <a href="es/">Español</a>
+      </li>
+    </ul>
+  </body>
+</html>

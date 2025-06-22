@@ -1,0 +1,16 @@
+{
+  "langs": [
+    { "code": "en", "name": "English" },
+    { "code": "es", "name": "Español" }
+  ],
+  "en": {
+    "copyright": "All rights reserved.",
+    "news": "news",
+    "tags": "tags"
+  },
+  "es": {
+    "copyright": "Reservados todos los derechos.",
+    "news": "noticias",
+    "tags": "etiquetas"
+  }
+}

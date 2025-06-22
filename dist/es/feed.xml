@@ -1,0 +1,183 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+  <title>JSTV Solutions</title>
+  <subtitle>Noticias de JSTV Solutions en Español.</subtitle>
+  <link href="https://jstvsolutions.com/es/feed.xml" rel="self" />
+  <link href="https://jstvsolutions.com/" />
+  <updated
+    >2025-01-28T00:00:00Z</updated
+  >
+  <id>https://jstvsolutions.com/</id>
+  <author>
+    <name>JSTV Solutions</name>
+    <email>webmaster@jstvsolutions.com</email>
+  </author>
+    <entry>
+      <title>Ayudamos a Una Empresa Pequeña a Crecer</title>
+      <link href="https://jstvsolutions.com/es/noticias/ayudamos-a-una-pequena-empresa-crecer/" />
+      <updated>2025-01-28T00:00:00Z</updated>
+      <id>https://jstvsolutions.com/es/noticias/ayudamos-a-una-pequena-empresa-crecer/</id>
+      <content type="html"
+        >
+&lt;p&gt;
+  Todos tenemos nuestra cafetería, puesto de tacos o hamburguesería favorita, y
+  en JSTV Solutions no somos la excepción. Uno de nuestros cofundadores lleva
+  más de una década yendo a la misma cafetería y conoce bien al personal y a los
+  dueños.
+&lt;/p&gt;
+&lt;p class=&quot;mt-8&quot;&gt;
+  Un día, uno de los dueños de la cafetería se lamentaba de lo lento y difícil
+  que era para sus clientes usar su sitio web. Llevaba tiempo sin actualizarlo y
+  recibía notificaciones sobre vulnerabilidades de seguridad que no entendía.
+  Había contactado con algunos desarrolladores de sitios web que ofrecían
+  reescrituras muy caras que implicaban un montón de jerga técnica que él
+  tampoco entendía.
+&lt;/p&gt;
+&lt;p class=&quot;mt-8&quot;&gt;
+  Este problema le estaba quitando demasiado tiempo y le impedía gestionar su
+  negocio. Nos ofrecimos a echar un vistazo y elaboramos un plan para trasladar
+  su sitio web a Squarespace. Fue rápido y económico, y ahora tienen un sitio
+  web que pueden actualizar y mantener fácilmente por sí mismos. Aunque
+  normalmente trabajamos en problemas difíciles y complejos, también nos
+  encantan las soluciones sencillas.
+&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Entregamos en un Plazo Breve</title>
+      <link href="https://jstvsolutions.com/es/noticias/entregamos-en-un-plazo-breve/" />
+      <updated>2025-01-05T00:00:00Z</updated>
+      <id>https://jstvsolutions.com/es/noticias/entregamos-en-un-plazo-breve/</id>
+      <content type="html"
+        >
+&lt;p&gt;
+  Nuestro cliente fabrica sistemas avanzados de telemetría con formación de haz
+  digital para la industria aeroespacial. Trabajaban en numerosos proyectos en
+  paralelo, cada uno con un plazo ajustado. Necesitaban a alguien que pudiera
+  ponerse al día rápidamente, ser responsable de algunos componentes clave y
+  entregar a tiempo y dentro del presupuesto con mínima supervisión.
+&lt;/p&gt;
+&lt;p class=&quot;mt-8&quot;&gt;
+  Eligieron a JSTV Solutions por el trabajo que uno de nuestros cofundadores ya
+  había realizado en este ámbito. Diseñamos e implementamos un protocolo
+  cliente-servidor y desarrollamos una sofisticada aplicación de escritorio
+  nativa en Qt que nuestro cliente utilizó para probar y controlar sus sistemas
+  de telemetría. Fue un reto, pero cumplimos todos los objetivos para
+  satisfacción de sus clientes.
+&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Vuela por Encima de Las Nubes con JSTV Solutions</title>
+      <link href="https://jstvsolutions.com/es/noticias/vuela-por-encima-de-las-nubes-con-jstv-solutions/" />
+      <updated>2024-04-24T00:00:00Z</updated>
+      <id>https://jstvsolutions.com/es/noticias/vuela-por-encima-de-las-nubes-con-jstv-solutions/</id>
+      <content type="html"
+        >
+&lt;p&gt;
+  Nuestro cliente utiliza Amazon Web Services (AWS), incluyendo OpenSearch, para
+  proporcionar a sus usuarios finales información sobre su infraestructura de
+  TI, como vulnerabilidades de seguridad conocidas y la detección de ataques
+  activos. A medida que aumentaba el uso de su producto SaaS, su factura de AWS
+  se incrementó y sus usuarios finales sufrieron latencias extremas.
+&lt;/p&gt;
+&lt;p class=&quot;mt-8&quot;&gt;
+  JSTV Solutions revisó su arquitectura y les proporcionó un resumen de las
+  mejoras a implementar, incluyendo la forma en que ingerían e indexaban sus
+  datos, así como las consultas que utilizaban para buscar en sus grandes
+  conjuntos de datos. Como resultado, la latencia promedio del usuario final se
+  redujo de 27 segundos a 0,5 segundos, y las consultas de búsqueda fueron un 94
+  % más rápidas.
+&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Los Problemas Heredados Requieren JSTV Solutions</title>
+      <link href="https://jstvsolutions.com/es/noticias/los-problemas-heredados-requieren-jstv-solutions/" />
+      <updated>2024-04-20T00:00:00Z</updated>
+      <id>https://jstvsolutions.com/es/noticias/los-problemas-heredados-requieren-jstv-solutions/</id>
+      <content type="html"
+        >
+&lt;p&gt;
+  Nuestro cliente es una empresa familiar minorista y casa de subastas
+  especializada en obras de arte y recuerdos únicos. A medida que han crecido,
+  han acumulado software y procesos empresariales dispares que generan pérdidas
+  de tiempo innecesarias y son propensos a errores. Realizar tareas
+  empresariales esenciales, como la gestión de inventario, el seguimiento de
+  pedidos y la gestión de las relaciones con los clientes, se convirtió en una
+  enorme carga para su pequeño equipo.
+&lt;/p&gt;
+&lt;p class=&quot;mt-8&quot;&gt;
+  JSTV Solutions creó un nuevo y moderno sitio web de comercio electrónico que
+  funciona directamente desde su base de datos FileMaker heredada, con la
+  flexibilidad de expandirse aún más a la gestión de relaciones con los clientes
+  y, eventualmente, a la funcionalidad de subastas. Además de una carga de
+  trabajo reducida, la solución proporciona a nuestro cliente la gestión del
+  inventario en tiempo real y acceso a métricas que le brindarán la información
+  necesaria para hacer crecer su negocio sin sobrecargar a su equipo.
+&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Sumario es Open Source</title>
+      <link href="https://jstvsolutions.com/es/noticias/sumario-es-open-source/" />
+      <updated>2023-09-12T00:00:00Z</updated>
+      <id>https://jstvsolutions.com/es/noticias/sumario-es-open-source/</id>
+      <content type="html"
+        >
+&lt;p&gt;
+  JSTV Solutions se complace en anunciar que Sumario, la mejor manera de
+  gestionar formularios en cualquier sitio web, ya está disponible gratuitamente
+  bajo la Licencia Pública General Affero de GNU. Su código fuente y todo lo
+  necesario para implementar Sumario en Fly.io están disponibles en GitLab.
+&lt;/p&gt;
+&lt;p class=&quot;mt-8&quot;&gt;
+  Tom y Jeff se conocieron durante el programa de MBA en la Universidad Loyola
+  Marymount, donde sus ambiciones de ayudar a las empresas a optimizar sus
+  operaciones con servicios de software sencillos y seguros se cruzaron.
+  Primero, Tom y Jeff desarrollaron Ledgery, un servicio de nóminas e impuestos
+  para pequeñas empresas nuevas. Poco después, desarrollaron Sumario. Creemos
+  que Sumario fue pionero en su tipo, y nos complace ver nuestra idea validada
+  por otras soluciones similares que surgieron posteriormente. Sin embargo,
+  nunca vimos la adopción que esperábamos y que Sumario merecía.
+  Lamentablemente, finalmente abandonamos Sumario en 2017.
+&lt;/p&gt;
+&lt;p class=&quot;mt-8&quot;&gt;
+  Mientras Tom y Jeff reflexionaban recientemente sobre el éxito de JSTV
+  Solutions y discutían nuestros próximos pasos, surgió la idea de revivir
+  Sumario. Creemos que hemos aprendido mucho desde el lanzamiento de Sumario y
+  tenemos muchas más posibilidades de convertirlo en un éxito comercial. Sin
+  embargo, al mismo tiempo, tenemos otras responsabilidades que no nos permiten
+  dedicarle el tiempo que creemos que requiere. Con esto en mente, decidimos
+  convertir Sumario en código abierto.
+&lt;/p&gt;
+&lt;p class=&quot;mt-8&quot;&gt;
+  Al igual que nuestra pasión por el teletrabajo, nuestra pasión por el software
+  de código abierto es anterior a su popularidad. Tom ya había contribuido a
+  Linux, Perl y al servidor web Apache antes de que se inventara el término
+  &quot;código abierto&quot;. Sabíamos que Sumario no sería útil en su estado actual,
+  archivado. Este lanzamiento de Sumario como código abierto es su evolución más
+  natural para nosotros.
+&lt;/p&gt;
+&lt;p class=&quot;mt-8&quot;&gt;
+  Las únicas actualizaciones que hemos realizado han sido actualizar las
+  dependencias de Sumario y ejecutarlo en Fly.io en lugar de AWS. Creemos que
+  esto realmente reduce las barreras para que otros implementen Sumario por su
+  cuenta, a la vez que ofrece un servicio simple y de alto rendimiento. Hemos
+  creado varios tickets con algunos cambios que creemos que deben implementarse
+  a corto plazo, pero hemos postergado la elaboración de planes a largo plazo.
+  Nos entusiasma ver crecer una comunidad en torno a Sumario y esperamos con
+  ansias ver el rumbo que quiere que tome. Esperamos que nos acompañes en esta
+  aventura en GitLab. Si prefieres que alguien más implemente Sumario, nos
+  complace volver a ofrecer Sumario como un servicio de pago asequible en
+  &lt;a href=&quot;https://sumar.io&quot; target=&quot;_sumario&quot;&gt;https://sumar.io&lt;/a&gt;.
+&lt;/p&gt;
+</content
+      >
+    </entry>
+</feed>

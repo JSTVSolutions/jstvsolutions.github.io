@@ -1,0 +1,177 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>JSTV Solutions</title>
+  <subtitle>JSTV Solutions news in English.</subtitle>
+  <link href="https://jstvsolutions.com/en/feed.xml" rel="self" />
+  <link href="https://jstvsolutions.com/" />
+  <updated
+    >2025-01-28T00:00:00Z</updated
+  >
+  <id>https://jstvsolutions.com/</id>
+  <author>
+    <name>JSTV Solutions</name>
+    <email>webmaster@jstvsolutions.com</email>
+  </author>
+    <entry>
+      <title>We Helped a Small Business Grow</title>
+      <link href="https://jstvsolutions.com/en/news/we-helped-a-small-business-grow/" />
+      <updated>2025-01-28T00:00:00Z</updated>
+      <id>https://jstvsolutions.com/en/news/we-helped-a-small-business-grow/</id>
+      <content type="html"
+        >
+&lt;p&gt;
+  Everyone has their favorite coffee shop, taco stand, or burger joint, and
+  those of us at JSTV Solutions are no exception. One of our co-founders has
+  been going to the same coffee shop for over a decade, and has gotten to know
+  the staff and owners well.
+&lt;/p&gt;
+&lt;p class=&quot;mt-8&quot;&gt;
+  One day, one of the coffee shop owners was lamenting how slow and difficult it
+  was for his customers to use their website. The website had not been updated
+  in a while, and he was receiving notifications about security vulnerabilities
+  that he didn&#39;t understand. He had reached out to some website builders who
+  were offering really expensive rewrites that involved a bunch of techno mumble
+  jumble he also didn&#39;t understand.
+&lt;/p&gt;
+&lt;p class=&quot;mt-8&quot;&gt;
+  This problem was taking up too much of his time and took him away from running
+  his business. We offered to take a look, and came up with a plan to move their
+  website over to Squarespace. It was quick and cheap, and now they have a
+  website that they can update and easily maintain on their own. While we
+  normally work on hard, complex problems, we also really love simple solutions.
+&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>We Delivered on a Short Timeline</title>
+      <link href="https://jstvsolutions.com/en/news/we-delivered-on-a-short-timeline/" />
+      <updated>2025-01-05T00:00:00Z</updated>
+      <id>https://jstvsolutions.com/en/news/we-delivered-on-a-short-timeline/</id>
+      <content type="html"
+        >
+&lt;p&gt;
+  Our client makes advanced digital beamforming telemetry systems for the
+  aerospace industry. They were working on numerous projects in parallel, each
+  with an aggressive deadline. They needed someone who could come up to speed
+  quickly, be responsible for some key components, and deliver on time and on
+  budget with minimal supervision.
+&lt;/p&gt;
+&lt;p class=&quot;mt-8&quot;&gt;
+  They tapped JSTV Solutions because of the work that one of our co-founders had
+  already done in this area. We designed and implemented a client/server
+  protocol, and built a sophisticated, native desktop app in Qt which our client
+  used to test and control their telemetry systems. It was a challenge, but we
+  met every milestone much to the delight of their customers.
+&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Go Above the Clouds With JSTV Solutions</title>
+      <link href="https://jstvsolutions.com/en/news/go-above-the-clouds-with-jstv-solutions/" />
+      <updated>2024-04-24T00:00:00Z</updated>
+      <id>https://jstvsolutions.com/en/news/go-above-the-clouds-with-jstv-solutions/</id>
+      <content type="html"
+        >
+&lt;p&gt;
+  Our client uses Amazon Web Services (AWS), including OpenSearch, to provide
+  their end users with insights into their IT infrastructure, such as known
+  security vulnerabilities and detection of active attacks. As usage of their
+  SaaS product increased, our client&#39;s AWS bill grew and their end users
+  suffered extreme latencies.
+&lt;/p&gt;
+&lt;p class=&quot;mt-8&quot;&gt;
+  JSTV Solutions reviewed their architecture and provided them with a summary of
+  improvements to make, which included how they ingested and indexed their data,
+  as well as the queries they used to search across their large data sets. As a
+  result, end user latency averages decreased from 27 seconds to 0.5 seconds,
+  and search queries were 94% faster.
+&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Legacy Problems Require JSTV Solutions</title>
+      <link href="https://jstvsolutions.com/en/news/legacy-problems-require-jstv-solutions/" />
+      <updated>2024-04-20T00:00:00Z</updated>
+      <id>https://jstvsolutions.com/en/news/legacy-problems-require-jstv-solutions/</id>
+      <content type="html"
+        >
+&lt;p&gt;
+  Our client is a family-run retail business and auction house that specializes
+  in one-of-a-kind artwork and unique memorabilia. As they have grown over the
+  years, they have accumulated disparate software and business processes that
+  needlessly wastes time and is error prone. Performing essential business tasks
+  such as inventory management, order tracking, and client relationship
+  management, became a huge burden for their small team.
+&lt;/p&gt;
+&lt;p class=&quot;mt-8&quot;&gt;
+  JSTV Solutions built a new, modern e-commerce website that runs directly off
+  of their legacy FileMaker database, with the flexibility to further expand
+  into customer relationship management and eventually into auction
+  functionality. In addition to a reduced workload, the solution provides our
+  client with real time inventory management, and access to metrics that will
+  give them the insight they need to grow their business without overworking
+  their team.
+&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Sumario is Open Source</title>
+      <link href="https://jstvsolutions.com/en/news/sumario-is-open-source/" />
+      <updated>2023-09-12T00:00:00Z</updated>
+      <id>https://jstvsolutions.com/en/news/sumario-is-open-source/</id>
+      <content type="html"
+        >
+&lt;p&gt;
+  JSTV Solutions is pleased to announce that Sumario, the best way to handle
+  forms on any website, is now freely available under the GNU Affero General
+  Public License. Its source code, and everything needed to deploy Sumario on
+  Fly.io is available on GitLab.
+&lt;/p&gt;
+&lt;p class=&quot;mt-8&quot;&gt;
+  Tom and Jeff met while in the MBA program at Loyola Marymount University where
+  their ambitions to help businesses streamline their operations with simple and
+  secure software services collided. First Tom and Jeff developed Ledgery, a
+  payroll and tax preparation service for new, small businesses. They
+  followed-up with Sumario shortly afterwards. We believe Sumario was the first
+  of its kind, and we were pleased to see our idea validated by other, similar
+  solutions that came later. However, we never did see the adoption we had hoped
+  for and felt Sumario deserved. Sadly, we eventually shelved Sumario in 2017.
+&lt;/p&gt;
+&lt;p class=&quot;mt-8&quot;&gt;
+  While Tom and Jeff were recently reflecting on the success JSTV Solutions has
+  had and discussing our next steps, the idea of reviving Sumario came up. We
+  think we&#39;ve learned a lot since we first launched Sumario and have a much
+  better chance at making Sumario a commercial success, but at the same time we
+  have other responsibilities now that won&#39;t allow us to spend the time on
+  Sumario we think that requires. With this in mind we decided to open source
+  Sumario.
+&lt;/p&gt;
+&lt;p class=&quot;mt-8&quot;&gt;
+  Like our passion for remote work, our passion for open source software
+  predates its popularity. Tom had already made contributions to Linux, Perl,
+  and the Apache web server before the term open source had been invented. We
+  knew that Sumario wouldn&#39;t help anyone in its current, archived state. This
+  release of Sumario as open source is its most natural evolution to us.
+&lt;/p&gt;
+&lt;p class=&quot;mt-8&quot;&gt;
+  The only updates we&#39;ve made have been to update Sumario&#39;s dependencies, and
+  run it on Fly.io instead of AWS. We believe this really lowers the barrier to
+  others to deploy Sumario on their own, but still provides a simple and
+  performant service. We&#39;ve created a handful of tickets with some changes we
+  think need to be made in the short-term, but we&#39;ve held off on making
+  long-term plans. We&#39;re excited to see a community grow around Sumario, and
+  look forward to see the direction it wants Sumario to take. We hope you&#39;ll
+  join us on this adventure on GitLab. For those who prefer to let someone else
+  deploy Sumario for them, we are happy to once again offer Sumario as an
+  affordable, paid service at
+  &lt;a href=&quot;https://sumar.io&quot; target=&quot;_sumario&quot;&gt;https://sumar.io&lt;/a&gt;.
+&lt;/p&gt;
+</content
+      >
+    </entry>
+</feed>

@@ -1,0 +1,25 @@
+---js
+// <script>
+const eleventyExcludeFromCollections = true;
+
+const layout = "page.njk";
+
+const pagination = {
+    data: "collections",
+    size: 1,
+    alias: "tag",
+    filter: ["all", "posts"],
+    // addAllPagesToCollections: true,
+};
+
+const eleventyComputed = {
+    title: "{{ tag }}",
+    subtitle: "All of our news and updates about {{ tag }}.",
+    permalink: function(data) {
+      return `/en/news/tags/${this.slugify(data.tag)}/`;
+    }
+};
+---
+
+{%- set postlist = collections[ tag ] | matchPageLang %}
+{%- include "postlist.njk" %}

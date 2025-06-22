@@ -1,0 +1,17 @@
+---
+eleventyExcludeFromCollections: true
+layout: page.njk
+title: Etiquetas
+subtitle: Explora nuestras noticias y actualizaciones por tema.
+---
+
+<div class="overflow-wrap gap-x-4 py-5">
+  {%- for tag in collections.all | matchPageLang | getKeys | filterTags | sortAlphabetically %}
+    <a href="/{{ page.lang }}/noticias/etiquetas/{{ tag | slugify }}/">
+      <span
+        class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+        >{{ tag }}</span
+      ></a
+    >
+  {%- endfor %}
+</div>

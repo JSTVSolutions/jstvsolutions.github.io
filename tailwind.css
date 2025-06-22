@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+
+@source "src";
+
+@layer base {
+  a {
+    @apply underline;
+  }
+}

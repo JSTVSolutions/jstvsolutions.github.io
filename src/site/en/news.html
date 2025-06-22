@@ -1,0 +1,14 @@
+---
+layout: page.njk
+eleventyNavigation:
+  key: News
+  order: 1
+eleventyComputed:
+  title: "{{ eleventyNavigation.key }}"
+subtitle: "Our latest news and updates that we're proud to share with you."
+---
+
+<div class="mt-16 space-y-20 lg:mt-20 lg:space-y-20">
+  {%- set postlist = collections.posts | matchPageLang %}
+  {%- include "postlist.njk" %}
+</div>

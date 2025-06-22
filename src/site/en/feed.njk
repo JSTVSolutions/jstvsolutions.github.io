@@ -1,0 +1,38 @@
+---
+eleventyExcludeFromCollections: true
+layout: false
+permalink: "/{{ lang }}/feed.xml"
+title: "JSTV Solutions"
+subtitle: "JSTV Solutions news in English."
+author:
+  name: "JSTV Solutions"
+  email: "webmaster@jstvsolutions.com"
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ page.lang }}">
+  <title>{{ title }}</title>
+  <subtitle>{{ subtitle }}</subtitle>
+  <link href="{{ page.url | htmlBaseUrl }}" rel="self" />
+  <link href="{{ "/" | htmlBaseUrl }}" />
+  <updated
+    >{{ collections.posts | matchPageLang | getNewestCollectionItemDate | dateToRfc3339 }}</updated
+  >
+  <id>{{ "/" | htmlBaseUrl }}</id>
+  <author>
+    <name>{{ author.name }}</name>
+    <email>{{ author.email }}</email>
+  </author>
+  {%- for post in collections.posts | matchPageLang | reverse %}
+    {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl }}{%- endset %}
+    <entry>
+      <title>{{ post.data.title }}</title>
+      <link href="{{ absolutePostUrl }}" />
+      <updated>{{ post.date | dateToRfc3339 }}</updated>
+      <id>{{ absolutePostUrl }}</id>
+      <content type="html"
+        >{{ post.content | renderTransforms(post.data.page) }}</content
+      >
+    </entry>
+  {%- endfor %}
+</feed>
