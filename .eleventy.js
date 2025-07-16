@@ -45,27 +45,48 @@ export default function (eleventyConfig) {
       return this.page.lang === item.page.lang;
     });
   });
+
+  eleventyConfig.addFilter("siteLangs", function (collection) {
+    return Array.from(
+      collection
+        .map((item) => item.data.page.lang)
+        .reduce((set, lang) => set.add(lang), new Set()),
+    );
+  });
+
+  eleventyConfig.addFilter("tagsByLang", function (collection, langs) {
+    return langs.reduce((accum, lang) => {
+      const tags = collection
+        .filter((item) => item.data.page.lang === lang && !!item.data.tags)
+        .map((item) => item.data.tags)
+        .flat();
+      accum[lang] = Array.from(new Set(Array.isArray(tags) ? tags : [tags]));
+      return accum;
+    }, {});
+  });
+
   eleventyConfig.addFilter("sortPages", function (collection) {
     return (collection || []).sort((item1, item2) => {
       return item1.page.url.localeCompare(item2.page.url);
     });
   });
-  eleventyConfig.addFilter("getKeys", function (target) {
-    return Object.keys(target);
-  });
+
   eleventyConfig.addFilter("filterTags", function (tags) {
     return (tags || []).filter((tag) => {
       return ["all", "posts"].indexOf(tag) === -1;
     });
   });
+
   eleventyConfig.addFilter("sortAlphabetically", function (strings) {
     return (strings || []).sort((b, a) => {
       return b.localeCompare(a);
     });
   });
+
   eleventyConfig.addFilter("htmlDateString", function (dateObj) {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
   });
+
   eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
     return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(
       format || "dd LLLL yyyy",

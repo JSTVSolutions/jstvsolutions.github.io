@@ -5,8 +5,11 @@ title: Tags
 subtitle: Explore our news and updates by subject.
 ---
 
+{% set langs = collections.all | siteLangs %}
+{% set langTags = collections.all | tagsByLang(langs) %}
+
 <div class="overflow-wrap gap-x-4 py-5">
-  {%- for tag in collections.all | matchPageLang | getKeys | filterTags | sortAlphabetically %}
+  {%- for tag in langTags [ page.lang ] | filterTags | sortAlphabetically %}
     <a href="/{{ page.lang }}/news/tags/{{ tag | slugify }}/">
       <span
         class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
